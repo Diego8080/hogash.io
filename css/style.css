@@ -24,6 +24,7 @@
 
 .header-logo {
     margin-left: 72px;
+    margin-top: 50px;
     
     
 }
@@ -132,16 +133,24 @@ li a:hover {
 
 }
 
+
+.perfect-grid__photo:hover {
+    box-shadow: 5px 10px 10px 5px rgba(219, 219, 223, 0.788);
+}
+
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 50px;
     align-items: center;
     min-width: 640px;
     justify-content: center;
     margin: 0 50px;
+    background-color: #f8f8f8;
 
 }
+
 
 .history-text {
     font-family: Ubuntu;
@@ -150,10 +159,15 @@ li a:hover {
     text-align: left;
 }
 
-.history-text:after {
-    content: "";
-    border: 2px solid #000000;
+.stripe {
+    border: 1px solid #000000;
     width: 35px;
     margin-top: 12px;
+    margin-bottom: 27px;
     
+    
+}
+
+.history:hover {
+    box-shadow: 5px 10px 10px 5px rgba(219, 219, 223, 0.788);
 }
