@@ -87,3 +87,47 @@ li a:hover {
 .header-button:hover {
     background-color: #DBDCDC;
 }
+
+.perfect {
+    font-family: Ubuntu;
+    text-align: center;
+    min-height: 730px;
+    margin-top: 95px;
+    margin-right: 355px;
+    margin-left: 355px;    
+
+}
+
+.perfect-header {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.perfect-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.perfect-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 42px;
+    grid-gap: 40px;
+}
+
+.perfect-grid__text {
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.perfect-grid__subtext {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+
+}
