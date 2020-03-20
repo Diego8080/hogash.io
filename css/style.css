@@ -142,13 +142,16 @@ li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 50px;
     align-items: center;
-    min-width: 640px;
     justify-content: center;
     margin: 0 50px;
     background-color: #f8f8f8;
 
+}
+
+.history {
+    margin-left: 154px;
+    max-width: 299px;
 }
 
 
@@ -166,6 +169,12 @@ li a:hover {
     margin-bottom: 27px;
     
     
+}
+
+.history-subtext {
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .history:hover {
