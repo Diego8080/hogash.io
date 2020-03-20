@@ -7,21 +7,50 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
     
 }
 
 .header-nav ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     grid-template-rows: 1fr;
+    align-items: center;
     list-style: none;
+    
 }
 
 .header-logo {
     margin-left: 72px;
+    
 }
 
 li a {
     text-decoration: none;
+    color:#333333;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 16px;
+    ;
+}
+
+li a:hover {
+    color: #BD8B78;
+}
+
+.button {
+    color:#333333;
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 14px;
+     background-color: #ffffff;
+     padding: 20px 38px;
+     border-radius: 50px;
+     text-transform: uppercase;
+
+}
+
+.button:hover {
+    background-color: #DBDCDC;
 }
