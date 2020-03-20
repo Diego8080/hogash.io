@@ -1,0 +1,27 @@
+.header {
+    background-color: #ebecee;
+    background: url("../images/main_bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 1090px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.header-nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style: none;
+}
+
+.header-logo {
+    margin-left: 72px;
+}
+
+li a {
+    text-decoration: none;
+}
